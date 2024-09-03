@@ -9,7 +9,7 @@
 int main(){
     setlocale(LC_ALL, "Russian");
     system("chcp 1251");
-    task1();
+    //task1();
     task2();
     return 0;
 }
