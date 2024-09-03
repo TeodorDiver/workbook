@@ -1,14 +1,10 @@
-#include <stdio.h>
 #include <iostream>
-#include <clocale>
 #include "task1.h"
+
 using std::cin;
 using std::cout;
 
 void task1() {
-	setlocale(LC_ALL, "Russian");
-	system("chcp 1251");
-
 	const int n = 12;
 	int a[n] = { -2, 0, 6, 5, -4, 8, 2, 11, 9, -3, -3, 10 };
 	int sum = 0;
@@ -41,7 +37,7 @@ void task1() {
 	cout << pro << "\n";
 
 
-	for (int i = 0, temp = 0; i < n; i++)		//сортировка пузырьком
+	for (int i = 0, temp = 0; i < n; i++)		//сортировка пузырьком по возрастанию
 		for (int j = 0; j < n - 1; j++)
 			if (a[j + 1] < a[j]) {
 				temp = a[j];
