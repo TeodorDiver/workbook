@@ -133,6 +133,7 @@
     <ClCompile Include="task3.cpp" />
     <ClCompile Include="task4.cpp" />
     <ClCompile Include="task5.cpp" />
+    <ClCompile Include="task6.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="task1.h" />
@@ -140,6 +141,7 @@
     <ClInclude Include="task3.h" />
     <ClInclude Include="task4.h" />
     <ClInclude Include="task5.h" />
+    <ClInclude Include="task6.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
