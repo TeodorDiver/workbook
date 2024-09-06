@@ -1,16 +1,10 @@
-﻿  task1.cpp
-  task2.cpp
-C:\Users\USER\source\repos\workbook\workbook\task2.cpp(15,17): warning C4305: инициализация: усечение из "double" в "float"
-C:\Users\USER\source\repos\workbook\workbook\task2.cpp(15,23): warning C4305: инициализация: усечение из "double" в "float"
-C:\Users\USER\source\repos\workbook\workbook\task2.cpp(15,33): warning C4305: инициализация: усечение из "double" в "float"
-C:\Users\USER\source\repos\workbook\workbook\task2.cpp(15,38): warning C4305: инициализация: усечение из "double" в "float"
-C:\Users\USER\source\repos\workbook\workbook\task2.cpp(15,44): warning C4305: инициализация: усечение из "double" в "float"
-C:\Users\USER\source\repos\workbook\workbook\task2.cpp(15,49): warning C4305: инициализация: усечение из "double" в "float"
-C:\Users\USER\source\repos\workbook\workbook\task2.cpp(15,54): warning C4305: инициализация: усечение из "double" в "float"
-C:\Users\USER\source\repos\workbook\workbook\task2.cpp(15,60): warning C4305: инициализация: усечение из "double" в "float"
-C:\Users\USER\source\repos\workbook\workbook\task2.cpp(15,66): warning C4305: инициализация: усечение из "double" в "float"
-C:\Users\USER\source\repos\workbook\workbook\task2.cpp(15,72): warning C4305: инициализация: усечение из "double" в "float"
-C:\Users\USER\source\repos\workbook\workbook\task2.cpp(15,78): warning C4305: инициализация: усечение из "double" в "float"
-  task3.cpp
-  Создание кода...
+﻿  task4.cpp
+C:\Users\USER\source\repos\workbook\workbook\task4.cpp(15,17): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\USER\source\repos\workbook\workbook\task4.cpp(15,23): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\USER\source\repos\workbook\workbook\task4.cpp(15,33): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\USER\source\repos\workbook\workbook\task4.cpp(15,38): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\USER\source\repos\workbook\workbook\task4.cpp(15,44): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\USER\source\repos\workbook\workbook\task4.cpp(15,49): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\USER\source\repos\workbook\workbook\task4.cpp(15,55): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\USER\source\repos\workbook\workbook\task4.cpp(15,60): warning C4305: инициализация: усечение из "double" в "float"
   workbook.vcxproj -> C:\Users\USER\source\repos\workbook\x64\Debug\workbook.exe
