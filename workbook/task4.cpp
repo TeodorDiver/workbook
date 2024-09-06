@@ -1,5 +1,6 @@
 ﻿#include <iostream>
 #include <iomanip>
+#include <cmath>
 #include "task4.h"
 
 void task4() {
@@ -43,10 +44,12 @@ void task4() {
 
 
 	for (int i = 0; i < n; i++)
-		if (a[i] < 1 && a[i] > -1)
-			count++;														//считаем количество элементов, модуль которых меньше 1		
+		if (abs(a[i]) < 1)
+			count++;												//считаем количество элементов, модуль которых меньше 1		
+
+	for(int i = 0; i < count; i++)
 		for (int j = 0; j < n - 1; j++)
-			if (a[j] < 1 && a[j] > -1) {									//сортировка пузырьком
+			if (abs(a[j]) < 1) {									//сортировка пузырьком
 				temp = a[j + 1];
 				a[j + 1] = a[j];
 				a[j] = temp;
