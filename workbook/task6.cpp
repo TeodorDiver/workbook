@@ -1,6 +1,6 @@
 ﻿#include <iostream>
 #include <iomanip>
-#include "task6.h"
+#include "tasks.h"
 
 void task6() {
 	std::cout << "\nЗАДАЧA №6\n";

@@ -1,6 +1,6 @@
 #include <iostream>
 #include <iomanip>
-#include "task3.h"
+#include "tasks.h"
 
 void task3() {
 	std::cout << "\nÇÀÄÀ×A ¹3\n";

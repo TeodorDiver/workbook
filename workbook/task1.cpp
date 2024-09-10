@@ -1,5 +1,5 @@
 ﻿#include <iostream>
-#include "task1.h"
+#include "tasks.h"
 
 using std::cin;
 using std::cout;

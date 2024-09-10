@@ -1,6 +1,6 @@
 ﻿#include <iostream>
 #include <iomanip>
-#include "task7.h"
+#include "tasks.h"
 
 void task7() {
 	std::cout << "\nЗАДАЧA №7\n";
@@ -19,7 +19,6 @@ void task7() {
 	int firstNull = 0;
 	int secondNull = 0;
 	int temp = 0;
-	int count = 0;
 
 	for (int i = 0; i <= n - 1; i++)									//находим iMax элемент	
 		if (a[i] >= max) {

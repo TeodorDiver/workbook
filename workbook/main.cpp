@@ -1,13 +1,7 @@
 ﻿#include <iostream>
 #include <clocale>
 #include <stdio.h>
-#include "task1.h"
-#include "task2.h"
-#include "task3.h"
-#include "task4.h"
-#include "task5.h"
-#include "task6.h"
-#include "task7.h"
+#include "tasks.h"
 
 
 
@@ -20,7 +14,8 @@ int main(){
     //task4();
     //task5();
     //task6();
-    task7();
+    //task7();
+    task8();
     return 0;
 }
 

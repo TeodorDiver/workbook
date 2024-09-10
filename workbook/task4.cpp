@@ -1,7 +1,7 @@
 ﻿#include <iostream>
 #include <iomanip>
 #include <cmath>
-#include "task4.h"
+#include "tasks.h"
 
 void task4() {
 	std::cout << "\nЗАДАЧA №4\n";
