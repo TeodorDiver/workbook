@@ -1,7 +1,4 @@
-﻿  task9.cpp
-C:\Users\USER\source\repos\workbook\workbook\task9.cpp(15,17): warning C4305: инициализация: усечение из "double" в "float"
-C:\Users\USER\source\repos\workbook\workbook\task9.cpp(15,22): warning C4305: инициализация: усечение из "double" в "float"
-C:\Users\USER\source\repos\workbook\workbook\task9.cpp(15,39): warning C4305: инициализация: усечение из "double" в "float"
-C:\Users\USER\source\repos\workbook\workbook\task9.cpp(15,47): warning C4305: инициализация: усечение из "double" в "float"
-C:\Users\USER\source\repos\workbook\workbook\task9.cpp(15,53): warning C4305: инициализация: усечение из "double" в "float"
+﻿  main.cpp
+  task10.cpp
+  Создание кода...
   workbook.vcxproj -> C:\Users\USER\source\repos\workbook\x64\Debug\workbook.exe

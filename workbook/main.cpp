@@ -16,7 +16,8 @@ int main(){
     //task6();
     //task7();
     //task8();
-    task9();
+    //task9();
+    task10();
     return 0;
 }
 
