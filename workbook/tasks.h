@@ -14,5 +14,6 @@ void task9();
 void task10();
 void task11();
 void task12();
+void task13();
 
 #endif // TASKS_H

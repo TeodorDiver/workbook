@@ -54,7 +54,7 @@ void task12() {
 			}
 			if (sum2 < sum1)
 				for (int j = 0; j < m; j++) {
-					int temp = b[i][j];					//наполняем массив temp строкой из матрицы
+					int temp = b[i][j];					//сортировка строк матрицы
 					b[i][j] = b[i + 1][j];
 					b[i + 1][j] = temp;
 				}

@@ -19,7 +19,8 @@ int main(){
     //task9();
     //task10();
     //task11();
-    task12();
+    //task12();
+    task13();
     return 0;
 }
 
