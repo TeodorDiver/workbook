@@ -14,7 +14,7 @@ void task11() {
 
 	const int n = 9, m = 5;
 	int b[n][m];
-	int i, j, k, l, countNull = 0, count, countMax = 0;
+	int i, j, countNull = 0, count, countMax = 0;
 
 
 
