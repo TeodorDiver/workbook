@@ -134,6 +134,7 @@
     <ClCompile Include="task12.cpp" />
     <ClCompile Include="task13.cpp" />
     <ClCompile Include="task14.cpp" />
+    <ClCompile Include="task15.cpp" />
     <ClCompile Include="task2.cpp" />
     <ClCompile Include="task3.cpp" />
     <ClCompile Include="task4.cpp" />

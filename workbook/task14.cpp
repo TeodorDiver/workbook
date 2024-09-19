@@ -52,36 +52,26 @@ void task14() {
 		sum += b[i + 1][i];	*/
 
 	
-	int maxR = INT_MIN;
-	int maxL = INT_MIN;
-	int sumR;
-	int sumL;
-	int x = n;										// 'n' константа, поэтому ввел 'x'
+	int max = INT_MIN;
+	int sum1;										// для подсчета суммы над главной диагональю
+	int sum2;										// для подсчета суммы под главной диагональю
+	int x = n - 1;										// 'n' константа, поэтому ввел 'x', т.к. есть необходимость уменьшать 'x' с каждой итерацией
 
-	for (int i = 0; i < n; i++) {
-		sumR = 0;
-		for (int j = 0; j < x - 1; j++)
-			sumR += b[j][j + 1 + i];				//	над главной диагональю
-		if (sumR >= maxR)
-			maxR = sumR;
-		x--;
+	for (int i = 0; i < n - 1; i++) {
+		sum1 = 0;									// обнуляем суммы на каждой итерации
+		sum2 = 0;
+		for (int j = 0; j < x; j++) {
+			sum1 += b[j][j + 1 + i];				// над главной диагональю
+			sum2 += b[j + 1 + i][j];				// под главной диагональю
+		}
+		if (sum1 >= sum2 && sum1 >= max)			// ищем мах
+			max = sum1;
+		if (sum2 >= sum1 && sum2 >= max)
+			max = sum2;
+		x--;										// здесь происходит уменьшение шагов вложенного цикла (по строке матрицы) 
 	}
 
-	x = n;											// возвращаем значение х
-
-	for (int i = 0; i < n; i++) {
-		sumL = 0;
-		for (int j = 0; j < x - 1; j++)
-			sumL += b[j + 1 + i][j];				//	под главной диагональю
-		if (sumL >= maxL)
-			maxL = sumL;
-		x--;
-	}
-
-	if(maxL >= maxR)
-		std::cout << maxL << " - маx\n";
-	else
-		std::cout << maxR << " - маx\n";
+	std::cout << max << " - маx\n";
 	
 
 
