@@ -45,33 +45,46 @@ void task14() {
 			std::cout << "\n" << i + 1 << " - данная строка не содержит отрицательных элементов, произведение ее элементов равно: " << pro << "\n";
 	}
 		
-	/*for (int i = 0; i < n; i++)									//сумма главной диагонали
+	/*for (int i = 0; i < n; i++)									//сумма главной диагонали, но по условию она нам не нужна
 		sum += b[i][i];
 
 	for (int i = 0; i < n - 1; i++)
 		sum += b[i + 1][i];	*/
 
-	int max = INT_MIN;
-	int sum = 0;
-	int x = n;
+	
+	int maxR = INT_MIN;
+	int maxL = INT_MIN;
+	int sumR;
+	int sumL;
+	int x = n;										// 'n' константа, поэтому ввел 'x'
 
 	for (int i = 0; i < n; i++) {
-		sum = 0;
-		for (int j = 0; j < x - 1; j++) {
-			if(i<j)
-				sum += b[j][j + 1 + i];
-			if(i>j)
-				sum += b[j + 1 + i][j];
-		}
-		if (sum >= max) 
-			max = sum;
+		sumR = 0;
+		for (int j = 0; j < x - 1; j++)
+			sumR += b[j][j + 1 + i];				//	над главной диагональю
+		if (sumR >= maxR)
+			maxR = sumR;
 		x--;
 	}
 
+	x = n;											// возвращаем значение х
 
-	std::cout << max << " - маx\n";
+	for (int i = 0; i < n; i++) {
+		sumL = 0;
+		for (int j = 0; j < x - 1; j++)
+			sumL += b[j + 1 + i][j];				//	под главной диагональю
+		if (sumL >= maxL)
+			maxL = sumL;
+		x--;
+	}
 
+	if(maxL >= maxR)
+		std::cout << maxL << " - маx\n";
+	else
+		std::cout << maxR << " - маx\n";
+	
 
 
 
 }
+
